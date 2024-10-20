@@ -1,0 +1,74 @@
+/* TourDetails.css */
+
+.main-tour-details{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section {
+  padding: 40px 0;
+  background-color: #f9f9f9; /* Light background for better contrast */
+}
+
+.tour_content {
+  background-color: #fff; /* White background for the tour details */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  overflow: hidden; /* Ensure no overflow */
+}
+
+.tour-details-image {
+  width: 100%; /* Make image responsive */
+  height: auto; /* Maintain aspect ratio */
+  border-bottom: 2px solid #e6e6e6; /* Bottom border for separation */
+}
+
+.tour_info {
+  padding: 20px; /* Padding around the text content */
+}
+
+.tour_info h2 {
+  font-size: 2rem; /* Larger font size for the title */
+  margin-bottom: 15px; /* Space below the title */
+  color: #333; /* Dark text color */
+}
+
+.tour_info .d-flex {
+  margin-bottom: 15px; /* Space below rating section */
+  color: #ffcc00; /* Color for the stars */
+}
+
+.tour_info p {
+  margin-bottom: 10px; /* Space between paragraphs */
+  color: #666; /* Lighter text color for descriptions */
+}
+
+.tour-details-info {
+  margin-top: 20px; /* Space above the info section */
+}
+
+.tour-details-info p {
+  font-weight: 500; /* Bold for the labels */
+}
+
+.tour-details-info strong {
+  color: #333; /* Dark color for strong labels */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .tour_info h2 {
+    font-size: 1.5rem; /* Smaller title font on mobile */
+  }
+}
+
+.btn-book-now{
+  background-color: #ff9900;
+  border-radius: 20px;
+  text-align: center;
+  padding: 5px 10px;
+  width: 35%;
+  margin: 20px 0px 0px 5px;
+  font-weight: 600;
+  font-size: 20px;
+}

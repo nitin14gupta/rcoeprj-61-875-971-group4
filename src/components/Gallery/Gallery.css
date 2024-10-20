@@ -1,0 +1,33 @@
+.gallery-section {
+    padding: 60px 0; /* Top and bottom padding */
+    background-color: #f8f9fa; /* Light background color */
+}
+
+.gallery-title {
+    font-size: 2.5rem; /* Title size */
+    font-weight: bold; /* Bold title */
+    text-align: center; /* Center align */
+    margin: 20px 0; /* Margin above and below */
+    color: #343a40; /* Dark color for title */
+}
+
+.gallery-image {
+    width: 100%; /* Full width */
+    height: auto; /* Auto height to maintain aspect ratio */
+    object-fit: cover; /* Cover to fill the space */
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transitions */
+}
+
+/* Hover effect for images */
+.gallery-image:hover {
+    transform: scale(1.05); /* Slightly zoom on hover */
+    filter: brightness(1.1); /* Slightly brighten */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .gallery-title {
+        font-size: 2rem; /* Smaller title for mobile */
+    }
+}

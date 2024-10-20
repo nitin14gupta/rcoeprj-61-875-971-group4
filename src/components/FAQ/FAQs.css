@@ -1,0 +1,40 @@
+/* FAQs.css */
+
+.faqs {
+    background-color: #f9f9f9; /* Light background for better contrast */
+    padding: 2rem; /* Spacing around the FAQs */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-top: 1rem; /* Spacing from other elements */
+  }
+  
+  .faqs h3 {
+    font-size: 1.8rem; /* Larger font for the title */
+    margin-bottom: 1.5rem; /* Space below the title */
+    color: #333; /* Dark color for better readability */
+    text-align: center; /* Center align the title */
+  }
+  
+  .faq-item {
+    margin-bottom: 1.5rem; /* Space between FAQ items */
+    border-bottom: 1px solid #ddd; /* Divider between FAQs */
+    padding-bottom: 1rem; /* Space below each item */
+  }
+  
+  .faq-item h4 {
+    font-size: 1.2rem; /* Slightly larger font for questions */
+    color: #007bff; /* Bootstrap primary color */
+    cursor: pointer; /* Change cursor to pointer for better interaction */
+    transition: color 0.2s; /* Smooth transition for hover effect */
+  }
+  
+  .faq-item h4:hover {
+    color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .faq-item p {
+    font-size: 1rem; /* Standard font size for answers */
+    color: #555; /* Medium gray for answers */
+    margin-top: 0.5rem; /* Space above the answer text */
+  }
+  

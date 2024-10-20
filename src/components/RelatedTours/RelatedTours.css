@@ -1,0 +1,26 @@
+/* TourDetails.css */
+
+.related-tours {
+    margin-top: 2rem; /* Add margin for spacing */
+  }
+  
+  .related-tours h3 {
+    margin-bottom: 1.5rem; /* Space below the title */
+  }
+  
+  .related-tours-list {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping of cards */
+    gap: 1.5rem; /* Space between cards */
+  }
+  
+  .related-tour-card {
+    flex: 1 1 calc(33.333% - 1.5rem); /* Three cards per row with gap */
+    max-width: calc(33.333% - 3.5rem); /* Limit max width */
+  }
+  
+  .related-tour-card img {
+    height: 250px; /* Set a fixed height for images */
+    object-fit: cover; /* Cover the card space */
+  }
+  

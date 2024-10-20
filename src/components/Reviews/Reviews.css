@@ -1,0 +1,59 @@
+/* ReviewForm.css */
+
+.review-form {
+    background-color: #fff; /* White background for the form */
+    padding: 20px; /* Padding for inner content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-top: 20px; /* Space above the form */
+  }
+  
+  .star-rating {
+    font-size: 24px; /* Size of the stars */
+    color: #ffcc00; /* Star color */
+  }
+  
+  .star {
+    cursor: pointer; /* Change cursor on hover */
+    transition: color 0.2s; /* Smooth color transition */
+  }
+  
+  .star.selected {
+    color: #ffcc00; /* Highlighted star color */
+  }
+  
+  textarea {
+    width: 100%; /* Full width for textarea */
+    height: 100px; /* Fixed height */
+    margin-top: 10px; /* Space above textarea */
+    padding: 10px; /* Padding inside textarea */
+    border: 1px solid #ccc; /* Border for textarea */
+    border-radius: 4px; /* Rounded corners */
+    resize: none; /* Prevent resizing */
+  }
+  
+  button {
+    margin-top: 10px; /* Space above the button */
+    padding: 10px 15px; /* Padding inside button */
+    background-color: #007bff; /* Button background color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .reviews-list {
+    margin-top: 20px; /* Space above reviews list */
+  }
+  
+  .review-item {
+    background-color: #f1f1f1; /* Background for each review */
+    padding: 10px; /* Padding for review item */
+    margin-top: 10px; /* Space above review item */
+    border-radius: 4px; /* Rounded corners */
+  }
+  

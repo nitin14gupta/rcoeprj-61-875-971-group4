@@ -1,0 +1,62 @@
+/* ServiceList.css */
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #db7e7e; /* Light background for contrast */
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-between; /* Space out the cards */
+    align-items: center;
+    gap: 20px; /* Space between the cards */
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    padding: 20px;
+    width: 280px; /* Set card width */
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px); /* Lift the card on hover */
+  }
+  
+  .card-icon img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px; /* Space below icon */
+  }
+  
+  .card-content h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .card-content p {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .card-container {
+      flex-direction: column; /* Stack the cards on smaller screens */
+      gap: 15px;
+    }
+  
+    .card {
+      width: 100%; /* Make the cards take full width on small screens */
+    }
+  }
+  

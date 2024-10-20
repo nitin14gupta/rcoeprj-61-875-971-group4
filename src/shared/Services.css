@@ -1,0 +1,47 @@
+/* src/styles/Services.css */
+.services_section {
+    padding: 60px 0;
+    background-color: #f4f4f4; /* Light background */
+  }
+  
+  .services_subtitle {
+    font-size: 1.5rem;
+    color: #ff6f61; /* Custom color for subtitle */
+    margin-bottom: 10px;
+    text-align: left; /* Left-align subtitle */
+  }
+  
+  .services {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333; /* Darker color for the main title */
+    margin-bottom: 20px;
+    text-align: left; /* Left-align main title */
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-between; /* Distribute cards evenly */
+    align-items: center;
+    gap: 20px; /* Space between cards */
+    margin-top: 40px; /* Space between the title section and cards */
+  }
+  
+  /* Ensure proper responsiveness for mobile devices */
+  @media (max-width: 768px) {
+    .services_subtitle {
+      font-size: 1.2rem; /* Reduce subtitle font size on mobile */
+    }
+  
+    .services {
+      font-size: 2rem; /* Reduce main title font size on mobile */
+    }
+  
+    .card-container {
+      flex-direction: column; /* Stack cards vertically on smaller screens */
+      gap: 20px; /* Maintain gap between stacked cards */
+      margin-top: 20px;
+    }
+  }
+  
+  

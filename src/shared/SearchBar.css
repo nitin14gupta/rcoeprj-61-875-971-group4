@@ -1,0 +1,72 @@
+/* src/shared/SearchBar.css */
+
+.search_bar {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 20px; /* Padding around the search bar */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-bottom: 20px; /* Space below the search bar */
+  }
+  
+  .form_group {
+    flex: 1; /* Allow form groups to grow equally */
+    border: 1px solid #ddd; /* Light border for inputs */
+    border-radius: 5px; /* Rounded corners for inputs */
+    padding: 10px; /* Padding inside form groups */
+    transition: border-color 0.3s; /* Smooth border color change */
+  }
+  
+  .form_group:hover {
+    border-color: #ff6f61; /* Change border color on hover */
+  }
+  
+  .form_group input {
+    border: none; /* Remove default border */
+    outline: none; /* Remove outline */
+    width: 100%; /* Full width for input */
+    font-size: 1rem; /* Input font size */
+    padding: 5px 0; /* Padding for input */
+  }
+  
+  .form_group h6 {
+    font-size: 0.9rem; /* Smaller font for labels */
+    margin: 0; /* Remove default margin */
+    color: #555; /* Label color */
+  }
+  
+  .form_group span {
+    font-size: 1.5rem; /* Icon size */
+    color: #ff6f61; /* Color for icons */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .search_bar {
+      padding: 15px; /* Reduce padding on smaller screens */
+    }
+  }
+  
+
+  .search_icon {
+    display: flex; /* Center the icon */
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Center content horizontally */
+    width: 40px; /* Set width for the icon area */
+    height: 40px; /* Set height for the icon area */
+    background-color: #ff6f61; /* Background color for the icon */
+    color: white; /* Icon color */
+    border-radius: 50%; /* Circular shape */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+}
+
+/* Hover effect for the search icon */
+.search_icon:hover {
+    background-color: #e65c50; /* Darker shade on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Style for the icon itself */
+.search_icon i {
+    font-size: 1.5rem; /* Adjust icon size */
+}

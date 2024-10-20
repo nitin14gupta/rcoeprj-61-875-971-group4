@@ -11,7 +11,7 @@ Key Features:
 
 1. User Profiles:
    - Create detailed profiles with personal information, travel preferences, past trips, and photos.
-   - Verification processes to ensure authenticity and trustworthiness.
+   - Verification processes to ensure authenticity and trustworthines.
 
 2. Matching Algorithm:
    - Smart matching based on travel preferences, interests, and destinations.

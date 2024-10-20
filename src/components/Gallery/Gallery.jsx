@@ -38,7 +38,6 @@ const Gallery = () => {
                 {galleryImages.map((item, index) => (
                   <img
                     src={item}
-                    alt={`Gallery Image ${index + 1}`}
                     key={index}
                     className="gallery-image"
                   />

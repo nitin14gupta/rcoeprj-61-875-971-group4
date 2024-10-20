@@ -1,0 +1,144 @@
+.footer {
+  background-color: #111;
+  color: #ddd;
+  padding: 60px 0;
+  position: relative;
+  z-index: 10;
+}
+
+.footer_logo img {
+  max-width: 150px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.footer_logo img:hover {
+  transform: scale(1.1);
+}
+
+.footer_desc {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.social_icons a {
+  font-size: 1.5rem;
+  margin-right: 15px;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.social_icons a:hover {
+  color: #ff5a5f;
+}
+
+.footer_links {
+  margin-bottom: 30px;
+}
+
+.footer_links h5 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.footer_links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer_links ul li {
+  margin-bottom: 10px;
+}
+
+.footer_links ul li a {
+  color: #ddd;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.footer_links ul li a:hover {
+  color: #ff5a5f;
+}
+
+.newsletter h5 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.newsletter p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #ddd;
+}
+
+.newsletter_input {
+  display: flex;
+  gap: 10px;
+}
+
+.newsletter_input input {
+  padding: 10px 20px;
+  border: 2px solid #ff5a5f;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 50px;
+  flex: 1;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.newsletter_input input::placeholder {
+  color: #ccc;
+}
+
+.newsletter_input input:focus {
+  border-color: #fff;
+}
+
+.newsletter_input .btn {
+  padding: 10px 20px;
+  background-color: #ff5a5f;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.newsletter_input .btn:hover {
+  background-color: #e94a4f;
+}
+
+.footer_bottom {
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  margin-top: 40px;
+}
+
+.footer_bottom p {
+  color: #888;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.footer_bottom a {
+  color: #ff5a5f;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer_bottom a:hover {
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .footer_bottom {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .footer_bottom p {
+    margin-bottom: 10px;
+  }
+}

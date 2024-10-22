@@ -1,7 +1,7 @@
 // App.js
 import React from 'react';
 import ServiceCard from './ServiceCard'; // Import the Card component
-import IMAGES from '../constants/Images'
+import IMAGES from '../constants/Images';
 
 function ServiceList() {
   return (
@@ -10,17 +10,17 @@ function ServiceList() {
         <ServiceCard
           icon={IMAGES.weatherImg}
           title="Calculate Weather"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          description="Stay informed about the weather at your destination to plan the perfect day."
         />
         <ServiceCard
           icon={IMAGES.guideImg}
           title="Best Tour Guide"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          description="Connect with experienced local guides who can show you the hidden gems and rich culture of the area."
         />
         <ServiceCard
           icon={IMAGES.customizationImg}
           title="Customization"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          description="Tailor your travel experience with personalized itineraries that match your interests and preferences."
         />
       </div>
     </div>

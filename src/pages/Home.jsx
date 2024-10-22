@@ -29,10 +29,7 @@ const Home = () => {
                   <span className="highlight">memories</span>
                 </h1>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-                  temporibus odio id ducimus? Odit temporibus iste soluta ut
-                  non? Incidunt voluptate inventore magnam est dicta non rerum,
-                  id minima porro!
+                  Welcome to Travel World, your ultimate travel companion! We believe that adventure awaits at every corner, and we're here to help you explore it all. Whether you're seeking breathtaking landscapes, vibrant cultures, or hidden gems, we curate unforgettable experiences tailored just for you.
                 </p>
               </div>
             </Col>

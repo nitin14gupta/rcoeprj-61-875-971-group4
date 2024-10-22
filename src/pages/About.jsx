@@ -1,7 +1,7 @@
 // About.js
 import React from 'react';
 import '../styles/About.css';
-
+import IMAGES from '../assets/images'
 const teamMembers = [
   {
     name: 'Nitin Gupta',
@@ -9,7 +9,7 @@ const teamMembers = [
     skills: ['Leadership', 'Strategic Planning', 'Partnership Development'],
     email: 'nitin524gupta@eng.rizvi.edu.in',
     phone: '+91 7977876609',
-    imgSrc: 'path/to/alice.jpg', // Replace with actual image paths
+    imgSrc: 'IMAGES.person1Img',
     description: 'Nitin is a passionate traveler and leader with over 10 years of experience in the travel industry. She loves exploring new cultures and sharing her adventures with others.',
   },
   {
@@ -18,7 +18,7 @@ const teamMembers = [
     skills: ['Customer Service', 'Itinerary Planning', 'Travel Logistics'],
     email: 'daniyalghori96@gmail.com',
     phone: '+91 9930954664',
-    imgSrc: 'path/to/bob.jpg',
+    imgSrc: 'IMAGES.person2Img',
     description: 'Daniyal is dedicated to helping clients plan their dream vacations. His attention to detail and commitment to customer satisfaction make him an invaluable member of our team.',
   },
   {
@@ -27,7 +27,7 @@ const teamMembers = [
     skills: ['Digital Marketing', 'Content Creation', 'Brand Strategy'],
     email: 'shoiabjamadar@gmail.com',
     phone: '+91 9594667378',
-    imgSrc: 'path/to/catherine.jpg',
+    imgSrc: 'IMAGES.person3Img',
     description: 'Shoaib is a creative marketer who enjoys crafting engaging content that inspires travel. She has a keen eye for trends and a passion for storytelling.',
   },
   {
@@ -36,7 +36,7 @@ const teamMembers = [
     skills: ['Web Development', 'Data Analysis', 'Project Management'],
     email: 'affanansari@gmail.com',
     phone: '+91 7710898172',
-    imgSrc: 'path/to/david.jpg',
+    imgSrc: 'IMAGES.person4Img',
     description: 'Affan is the tech guru behind our platform. He ensures that our systems run smoothly and effectively, making travel planning easy and enjoyable for our users.',
   },
 ];

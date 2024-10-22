@@ -94,12 +94,12 @@ const Home = () => {
                   we will serve you
                 </h2>
                 <p className="experience-description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.{" "}
-                  <br />
-                  Facilis beatae veritatis, tempora veniam deleniti vitae <br />
-                  expedita quae impedit dolore provident saepe, omnis qui <br />
-                  odio dignissimos. Voluptatibus ipsam delectus dolore.
-                </p>
+  Explore the world with unforgettable experiences that enrich your journey.{" "}
+  <br />
+  Discover hidden gems, immerse yourself in local cultures, and create lasting memories. <br />
+  Whether you’re seeking adventure, relaxation, or a taste of authentic cuisine, <br />
+  our tailored itineraries ensure every moment is extraordinary. Join us and embark on your next great adventure!
+</p>
               </div>
 
               <div className="counter_wrapper d-flex align-items-center gap-5">

@@ -14,28 +14,28 @@ const AVATAR = {
 
 const testimonials = [
   {
-    text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore omnis quas fugit corrupti ipsum harum dolorum velit officiis facilis non! Animi non, ullam neque quisquam facere nobis id reprehenderit ipsum.",
+    text: "Our trip was a dream come true! The itinerary was perfectly tailored, allowing us to explore both popular sights and hidden gems. Highly recommend!",
     name: "Nitin Gupta",
     avatar: AVATAR.avt01,
   },
   {
-    text: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,",
-    name: "Aisha Khan",
+    text: "Absolutely amazing experience! The local guides were knowledgeable and passionate, making every tour unforgettable. Can't wait to book again!",
+    name: "Daniyal Ghori",
     avatar: AVATAR.avt02,
   },
   {
-    text: "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born. But I must explain to you how all this mistaken idea",
-    name: "John Doe",
+    text: "Traveling with [Your Company Name] was life-changing. Each destination was well-planned, and I loved the personal touches throughout the journey.",
+    name: "Affan Ansari",
     avatar: AVATAR.avt03,
   },
   {
-    text: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias.",
-    name: "Emily Smith",
+    text: "From start to finish, the service was exceptional. Every detail was taken care of, and I felt truly immersed in the local culture.",
+    name: "Shoiab Jamadar",
     avatar: AVATAR.avt04,
   },
   {
-    text: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
-    name: "Michael Brown",
+    text: "The best travel experience I've ever had! The guides made us feel like we were part of the community. I can't recommend them enough!",
+    name: "Adarsh Mauryaa",
     avatar: AVATAR.avt05,
   },
 ];
